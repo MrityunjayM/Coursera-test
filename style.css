@@ -12,7 +12,8 @@ body{
     font-family:cursive,"sans-serif","Arial","Helvetica";
 }
 header{
-    /*background-color: crimson;*/
+    background-color: crimson;
+    box-shadow: 2px 2px goldenrod;
     font-size: 30px;
     text-align: center;
     color: darkblue;
