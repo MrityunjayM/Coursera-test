@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+[class*="col-"] {
+    width: 100%;
+  }
 body{
     background-color:skyblue;
     display: block;    
