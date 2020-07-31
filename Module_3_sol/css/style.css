@@ -3,67 +3,16 @@
 }
 
 body{
-    text: ;
-    background-color: lightgreen;
-    display: block;    
     font-size: 16px;
-    width: 100%;
-    height:auto;
-    margin: 0px;
-    padding: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',"sans-serif","Arial","Helvetica";
+    background-color: lightsteelblue;
 }
-header{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: darkblue;
-    height: 70px;
-    width: 100%;
-    padding: 15px 0px 0px 0px;
-    margin: 10px 0px 30px 0px;            
-}
-.main{
-    width:100%;
-}
-.content{
-    position: relative;
-    border: 1px solid black;
-    /*border-radius: 5px;*/
-    color: green;
-    float: left;
-    font-family:Helvetica,"sans-serif","Arial","cursive";
-    text-align: center;
-    height: 200px;
-    padding: 0px;
-    margin: 0% 0% 2% 2%;
-}    
-h2{
-    float: right;
-    width: 140px;
-    border: 1px solid black;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
-    background-color: lightgray;
-}
-p{
-    clear: both;
-    font-size: 18px;
-    margin: 25px 0px 0px 0px;
-}
-#tab-first{
-    background: rgba(255, 255, 255, .7);
-    color: blue;
-}
-#tab-second{
-    background: rgba(255, 255, 255, .9);
-    color:red;
-}
-#tab-third{
-    background: rgba(255, 255, 255, .8);
+#header-nav{
+    background-color: lightyellow;
+    border-radius: 0;
+    border: 0;
 }
 /*For Mobile Device */
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
          
   .col-sm-1 {width: 8.33%;}
   .col-sm-2 {width: 16.66%;}
@@ -79,7 +28,7 @@ p{
   .col-sm-12 {width: 97%;}
 }
 /* For Talet Device */
-@media (min-width:768px) and (max-width: 991px){
+/*@media (min-width:768px) and (max-width: 991px){
          
   .col-md-1 {width: 8.33%;}
   .col-md-2 {width: 16.66%;}
@@ -93,9 +42,9 @@ p{
   .col-md-10 {width: 83.33%;}
   .col-md-11 {width: 91.66%;}
   .col-md-12 {width: 96%;}
-}
+}*/
 /*For Large Device */
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     
   .col-lg-1 {width: 8.33%;}
   .col-lg-2 {width: 16.66%;}
@@ -109,4 +58,4 @@ p{
   .col-lg-10 {width: 83.33%;}
   .col-lg-11 {width: 91.66%;}
   .col-lg-12 {width: 97%;}
-}
+}*/
