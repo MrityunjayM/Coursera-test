@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
     
@@ -22,7 +22,11 @@
                     </div>
                 </div>
                 <button class="navbar-toggler visible-xs" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                        <div id="toggel-bar" class="dropdown-divider"></div>
+                        <div id="toggel-bar" class="dropdown-divider"></div>
+                        <div id="toggel-bar" class="dropdown-divider"></div>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -43,7 +47,7 @@
         <h1>Our Menu</h1>
     </div>
 
-    <div class="container">
+    <div id="tabs" class="container">
         <div class="row">
             <div id="tab-first" class="col-sm-auto">
                 <h2 class="text-center">Wisdom</h2>
