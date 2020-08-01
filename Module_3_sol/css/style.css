@@ -10,10 +10,20 @@ body{
     background-color: lightyellow;
     border-radius: 0;
     border: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 #main-header{
   margin-right: 0px;
   margin-left: 0px;
+  padding-right: 0;
+  padding-left: 0;
+}
+@media (min-width: 767px) {
+  #main-header{
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 .navbar-brand{
   font-family: Lora,"serif";
@@ -41,7 +51,12 @@ body{
 #nav-item{
   background-color: lightgrey;
 }
-
+@media(max-width:767px){
+  ul{
+    margin: 0;
+    width: 100%;
+  }
+}
 #btndn{
   font-weight: 600;
   position: absolute;
