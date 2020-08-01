@@ -47,6 +47,9 @@ body{
 #toggel-bar{
   border-top: 1.4px solid black;
 }
+.navbar-divider{
+  margin: 0;
+}
 
 #nav-item{
   background-color: lightgrey;
