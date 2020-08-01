@@ -11,6 +11,36 @@ body{
     border-radius: 0;
     border: 0;
 }
+.container{
+  margin: 0;
+  width: 100%;
+}
+.navbar-brand{
+  font-family: Lora,"serif";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+@media (min-width: 600px) {
+  .visible-xs{
+    visibility: hidden;
+  }
+}
+.navbar-toggler{
+  float: right;
+  border: 2px solid lightblue;
+}
+.navbar-toggler-icon{
+  background-color: lightsalmon;
+}
+#nav-item{
+  background-color: lightgrey;
+}
+.container_fluid{
+  margin-top: 20px;
+}
 /*For Mobile Device */
 /*@media (max-width: 767px) {
          
@@ -26,9 +56,12 @@ body{
   .col-sm-10 {width: 83.33%;}
   .col-sm-11 {width: 91.66%;}
   .col-sm-12 {width: 97%;}
-}
+}*/
 /* For Talet Device */
 /*@media (min-width:768px) and (max-width: 991px){
+  .container{
+    width: 100%;
+  }
          
   .col-md-1 {width: 8.33%;}
   .col-md-2 {width: 16.66%;}
@@ -45,6 +78,9 @@ body{
 }*/
 /*For Large Device */
 /*@media (min-width: 992px) {
+  .container{
+    width: 100%;
+  }
     
   .col-lg-1 {width: 8.33%;}
   .col-lg-2 {width: 16.66%;}
