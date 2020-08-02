@@ -7,6 +7,7 @@ body{
     background-color: lightsteelblue;
 }
 #header-nav{
+    width: 100%;
     background-color: lightyellow;
     border-radius: 0;
     border: 0;
@@ -16,7 +17,7 @@ body{
 #main-header{
   margin-right: 0px;
   margin-left: 0px;
-  padding-right: 0;
+  padding-right: 3px;
   padding-left: 0;
 }
 @media (min-width: 767px) {
@@ -43,6 +44,9 @@ body{
 @media (min-width: 576px){
   .container {
     max-width: 99%;
+  }
+  .col-sm-auto{
+    flex-shrink: inherit;
   }
 }
 .navbar-toggler{
@@ -83,6 +87,10 @@ body{
 }
 .navbar-toggler-icon{
   color: black;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
 }
 #tab-first,#tab-second,#tab-third{
   width: 100%;
