@@ -35,9 +35,14 @@ body{
 }*/
 
 
-@media (min-width: 600px) {
+@media (min-width: 767px) {
   .visible-xs{
     visibility: hidden;
+  }
+}
+@media (min-width: 576px){
+  .container {
+    max-width: 99%;
   }
 }
 .navbar-toggler{
@@ -49,6 +54,7 @@ body{
 }
 .navbar-divider{
   margin: 0;
+  padding: 0;
 }
 
 #nav-item{
