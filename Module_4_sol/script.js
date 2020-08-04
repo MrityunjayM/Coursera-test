@@ -3,9 +3,10 @@
   for (var i=0; i<names.length;i++) {
 
     var intlet=names[i].charAt(0);
-    if ((intlet=='J') || (intlet=='j')) {
+    if ((intlet==='J') || (intlet==='j')) {
       goodbyespeaker.speak(names[i]);
-    } else {
+    }
+    else {
       hellospeaker.speak(names[i]);
     }
   }
