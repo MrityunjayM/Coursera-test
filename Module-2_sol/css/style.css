@@ -3,7 +3,7 @@
 }
 
 body{
-    text: ;
+    text: "sans-serif" ;
     background-color: lightgoldenrodyellow;
     display: block;    
     font-size: 16px;
@@ -49,6 +49,7 @@ p{
     clear: both;
     font-size: 18px;
     margin: 25px 0px 0px 0px;
+    padding: 0 10px;
 }
 #tab-first{
     background-color: whitesmoke;
